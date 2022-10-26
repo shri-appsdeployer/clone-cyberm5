@@ -4,10 +4,20 @@
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
+.button{
+    text-transform: capitalize;
+    background-color: blueviolet;
+    color:white;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
 /* nav bar  */
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 24px;
     font-size: 1.5rem;
     background-color:transparent;
@@ -21,15 +31,50 @@ nav{
     color: black;
     margin: 0px 24px;
 }
+.p3 span{
+    margin-right:40px ;
+}
 .nav-btn{
     text-transform: capitalize;
     background-color: blueviolet;
     color:white;
     padding: 16px;
     border: none;
-    border-radius: 5px;
-    font-size: 1.1rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
+
 }
 
 
 /* nav bar */
+
+/* hero section */
+.hero{
+    padding: 32px;
+}
+.hero-wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+.hero-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-left h1{
+    font-size: 5rem;
+}
+.hero-right{
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-right img{
+    width: 500px;
+}
+/* hero section */
